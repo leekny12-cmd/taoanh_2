@@ -33,7 +33,7 @@ function App() {
         <div class="app-wrapper">
             <header class="top-header">
                 <div class="header-section">
-                    <h1>HAIART AI GENERATOR</h1>
+                    <h1>AI LÊ ĐỨC NHƯ Ý</h1>
                 </div>
                 <div class="tabs">
                     <button id="tab-generate" class="tab-button active" data-tab="generate">Tạo ảnh AI</button>
