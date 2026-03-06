@@ -33,7 +33,7 @@ function App() {
         <div class="app-wrapper">
             <header class="top-header">
                 <div class="header-section">
-                    <h1>HAIART AI GENERATOR</h1>
+                    <h1>LÊ ĐỨC NHƯ Ý AI</h1>
                 </div>
                 <div class="tabs">
                     <button id="tab-generate" class="tab-button active" data-tab="generate">Tạo ảnh AI</button>
@@ -75,15 +75,15 @@ function App() {
                 <div class="header-buttons">
                     <div class="header-buttons-scroller">
                         <!-- Original Set -->
-                        <a href="https://nguyenhoanghai1605.github.io/haiart" target="_blank" class="header-link-btn">APP ẢNH SẢN PHẨM PREMIUM</a>
+                        <a href="https://leekny12-cmd.github.io/thuvienanh/" target="_blank" class="header-link-btn">APP ẢNH SẢN PHẨM PREMIUM</a>
                         <button class="header-link-btn js-prompt-library-btn">THƯ VIỆN PROMPT FREE!</button>
                         <a href="https://zalo.me" target="_blank" class="header-link-btn">NHÓM HỖ TRỢ AI</a>
                         <a href="https://www.facebook.com" target="_blank" class="header-link-btn">DỊCH VỤ ẢNH AI CHUYÊN NGHIỆP</a>
                         <!-- Duplicated Set for seamless loop -->
-                        <a href="https://nguyenhoanghai1605.github.io/haiart" target="_blank" class="header-link-btn">APP ẢNH SẢN PHẨM PREMIUM</a>
+                        <a href="https://leekny12-cmd.github.io/thuvienanh/" target="_blank" class="header-link-btn">APP ẢNH SẢN PHẨM PREMIUM</a>
                         <button class="header-link-btn js-prompt-library-btn">THƯ VIỆN PROMPT FREE!</button>
-                        <a href="https://zalo.me" target="_blank" class="header-link-btn">NHÓM HỖ TRỢ AI</a>
-                        <a href="https://www.facebook.com" target="_blank" class="header-link-btn">DỊCH VỤ ẢNH AI CHUYÊN NGHIỆP</a>
+                        <a href="https://zalo.me/0963609936" target="_blank" class="header-link-btn">NHÓM HỖ TRỢ AI</a>
+                        <a href="https://www.facebook.com/inanpy" target="_blank" class="header-link-btn">DỊCH VỤ ẢNH AI CHUYÊN NGHIỆP</a>
                     </div>
                 </div>
                 <div class="theme-switcher">
@@ -211,7 +211,7 @@ function App() {
 
     // --- Prompt Library Modal Logic ---
     function openPromptLibraryModal() {
-        promptLibraryIframeEl.src = 'https://nguyenhoanghai1605.github.io/haiart/';
+        promptLibraryIframeEl.src = 'https://leekny12-cmd.github.io/thuvienanh/';
         promptLibraryModalEl.style.display = 'flex';
     }
 
@@ -227,7 +227,7 @@ function App() {
         const isMobile = window.innerWidth < 1024;
 
         if (isMobile) {
-            window.open('https://nguyenhoanghai1605.github.io/haiart/', '_blank');
+            window.open('https://leekny12-cmd.github.io/thuvienanh/', '_blank');
         } else {
             openPromptLibraryModal();
         }
